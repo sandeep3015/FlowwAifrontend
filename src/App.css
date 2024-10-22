@@ -1,3 +1,71 @@
+.table-container {
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.transaction-heading {
+  color: white;
+}
+
+.input-field {
+  height: 27px;
+  width: 200px;
+  border-radius: 5px;
+  border-width: 0;
+  padding-left: 5px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 300px;
+  align-items: center;
+}
+
+.input-select {
+  height: 27px;
+  width: 206px;
+  border-radius: 5px;
+  border-width: 0;
+  padding-left: 5px;
+}
+
+.display {
+  display: none;
+}
+
+.login-container {
+  background-color: transparent;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.add-button {
+  background-color: rgb(50, 110, 126);
+  height: 35px;
+  width: 300px;
+  border-radius: 8px;
+  border-width: 0;
+  color: white;
+  font-family: roboto 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +103,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  height: 40px;
+  width: auto;
+  border-radius: 10px;
+  background-color: #428a9e;
+  color: white;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.home-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://wallpapercave.com/wp/wp11425570.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-heading {
+  font: 40px roboto;
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
